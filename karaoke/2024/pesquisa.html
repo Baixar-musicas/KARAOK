@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.packdemusicas.com.br/pesquisa.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jul 2024 02:52:22 GMT -->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Roboto+Slab:wght@100..900&amp;display=swap" rel="stylesheet">
+
+<style>
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #999;
+}
+
+#myInput {
+    width: 600px; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 20px 15px; /* Add some padding */
+    border: 2px solid #666; /* Add a grey border */
+    border-radius: 5px;
+    margin-bottom: 12px; /* Add some space below the input */
+    outline: none;
+    transition: .4s;
+}
+
+#myInput:hover {
+  border: 2px solid #999;
+  transform: scale(1.005);
+}
+
+#myInput::-webkit-input-placeholder {
+  font-size: 21px;
+}
+
+#myUL {
+    width: 630px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 20px 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 21px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+    font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+#myUL li a.header {
+    background-color: rgb(0, 0, 205); /* Add a darker background color for headers */
+    cursor: default; /* Change cursor style */
+    color: #fff;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    padding: 10px 12px; /* Add some padding */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #999;
+}
+
+
+
+#myInput {
+    width: 290px; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 20px 15px; /* Add some padding */
+    border: 2px solid #666; /* Add a grey border */
+    border-radius: 5px;
+    margin-bottom: 12px; /* Add some space below the input */
+    outline: none;
+    transition: .4s;
+}
+
+#myInput:hover {
+  border: 2px solid #999;
+  transform: scale(1.005);
+}
+
+#myInput::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+#myUL {
+    width: 330px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 15px 6px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 19px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a.header {
+    background-color: rgb(0, 0, 205); /* Add a darker background color for headers */
+    cursor: default; /* Change cursor style */
+    color: #fff;
+    padding: 15px 10px;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+}
+
+
+</style>
+</head>
+<body>
+
+<input type="text" id="myInput" onkeyup="handlerFunkcija()" placeholder="Pesquise pelo seu artista favorito.">
+
+<ul id="myUL">
+<li><a href="#"class="header">A</a></li>
+<li><a>Agnaldo Rayol</a></li>
+<li><a>Agnaldo Timoteo</a></li>
+<li><a>Alexandre Pires</a></li>
+<li><a>Aline Barros</a></li>
+<li><a>Almir Sater</a></li>
+<li><a>Altemar Dutra</a></li>
+<li><a>Almir Guineto</a></li>
+<li><a>Ana Castela</a></li>
+<li><a>Amado Batista</a></li>
+<li><a>Ana Paula Valadão</a></li>
+<li><a>Ana Carolina</a></li>
+<li><a>Ana Vilela</a></li>
+<li><a>Anavitoria </a></li>
+<li><a>Anitta </a></li>
+<li><a>Anisio Silva</a></li>
+<li><a>Antonio Carlos</a></li>
+<li><a>Antonio Fagundes</a></li>
+<li><a>Antonio Marcos</a></li>
+<li><a>Arlindo Cruz</a></li>
+<li><a>Arlindo Farias</a></li>
+<li><a>Arlindo Neto</a></li>
+<li><a>Armandinho</a></li>
+<li><a>Arnaldo Antunes</a></li>
+<li><a>Asa de Aguia</a></li>
+<li><a>Augusto Cesar</a></li>
+<li><a>Aviões do Forro</a></li>
+<li><a>Adriana Calcanhoto</a></li>
+<li><a>Alceu Valença</a></li>
+<li><a>Ana Vilela</a></li>
+<li><a>Amado Batista</a></li>
+<li><a>Alcione </a></li>
+<li><a>Alvaro Tito</a></li>
+<li><a>Atchim e Espirro</a></li>
+<li><a>A Turma do Mônica</a></li>
+<li><a>Arctic Monkeys</a></li>
+<li><a>Aretha Franklin</a></li>
+<li><a>Annie Lennox</a></li>
+<li><a>Aerosmith </a></li>
+<li><a>AC/DC</a></li>
+<li><a>Amy Winehouse</a></li>
+<li><a>Abba </a></li>
+<li><a>Alan Jackson</a></li>
+<li><a>Alice Cooper</a></li>
+<li><a>Alphaville </a></li>
+<li><a>Alan Walker</a></li>
+<li><a>Aretha Franklin</a></li>
+<li><a>Avril Lavigne</a></li>
+<li><a>Avicii</a></li>
+<li><a>Ariana Grande</a></li>
+<li><a>Alejandro Sanz</a></li>
+<li><a>Adele </a></li>
+<li><a>A-ha</a></li>
+<li><a>Ana Clara</a></li>
+
+<li><a href="#"class="header">B</a></li>
+<li><a>Babado Novo</a></li>
+<li><a>Baby do Brasil</a></li>
+<li><a>Backstreet Boys</a></li>
+<li><a>Bruna Karla</a></li>
+<li><a>Banda Calypso</a></li>
+<li><a>Banda Djavu</a></li>
+<li><a>Barões da Pisadinha</a></li>
+<li><a>Banda Eva</a></li>
+<li><a>Barão Vermelho</a></li>
+<li><a>Bartô Galeno</a></li>
+<li><a>Bell Marques</a></li>
+<li><a>Belchior</a></li>
+<li><a>Belo </a></li>
+<li><a>Belô Veloso</a></li>
+<li><a>Benito Di Paula</a></li>
+<li><a>Beth Carvalho</a></li>
+<li><a>Beto Barbosa</a></li>
+<li><a>Bezerra da Silva</a></li>
+<li><a>Biquini Cavadão</a></li>
+<li><a>Blitz </a></li>
+<li><a>Bonde do Forro</a></li>
+<li><a>Bonde Do Tigrão</a></li>
+<li><a>Broz</a></li>
+<li><a>Bruno e Marrone</a></li>
+<li><a>Buchecha </a></li>
+<li><a>Bruno e Barreto</a></li>
+<li><a>Belo </a></li>
+<li><a>Barão Vermelho</a></li>
+<li><a>Belchior </a></li>
+<li><a>Bob Dylan</a></li>
+<li><a>Black Sabbath</a></li>
+<li><a>Black Eyed Peas</a></li>
+<li><a>Blink-182 </a></li>
+<li><a>Bebe Rexha</a></li>
+<li><a>Beach Boys</a></li>
+<li><a>Bruce Dickinson</a></li>
+<li><a>Bonnie Tyler</a></li>
+<li><a>Britney Spears</a></li>
+<li><a>Bryan Adams</a></li>
+<li><a>Brenda Russell</a></li>
+<li><a>Beatles </a></li>
+<li><a>Bee Gees</a></li>
+<li><a>Billie Eilish</a></li>
+<li><a>Bon Jovi</a></li>
+<li><a>Bruce Springsteen</a></li>
+<li><a>Bob Marley</a></li>
+<li><a>Billy Idol</a></li>
+<li><a>Brian McKnight</a></li>
+
+<li><a href="#"class="header">C</a></li>
+<li><a>Calcinha Preta</a></li>
+<li><a>Capital Inicial</a></li>
+<li><a>Carlinhos Brown</a></li>
+<li><a>Carnaval </a></li>
+<li><a>Cartola </a></li>
+<li><a>Cassia Eller</a></li>
+<li><a>Cassiano </a></li>
+<li><a>Cauby Peixoto</a></li>
+<li><a>Cazuza </a></li>
+<li><a>Cesar Menotti e Fabiano</a></li>
+<li><a>Charlie Brown Junior</a></li>
+<li><a>Chiclete com Banana</a></li>
+<li><a>Chico Cesar</a></li>
+<li><a>Chico Rey e Parana</a></li>
+<li><a>Chiquititas </a></li>
+<li><a>Chitãozinho e Xororo</a></li>
+<li><a>Christian E Ralf</a></li>
+<li><a>Cláudia Barroso</a></li>
+<li><a>Calvin Harris</a></li>
+<li><a>Claudinho E Buchecha</a></li>
+<li><a>Cleber e Cauan</a></li>
+<li><a>Cleiton E Camargo</a></li>
+<li><a>CPM 22</a></li>
+<li><a>Cravo E Canela</a></li>
+<li><a>Cristiano Araujo</a></li>
+<li><a>Coldplay</a></li>
+<li><a>Cranberries</a></li>
+<li><a>Charlie Puth</a></li>
+<li><a>Camila Cabello</a></li>
+<li><a>Christina Aguilera</a></li>
+<li><a>Carpenters </a></li>
+<li><a>Cher </a></li>
+<li><a>Creed </a></li>
+<li><a>Culture Club</a></li>
+<li><a>Chuck Berry</a></li>
+<li><a>Cinderela </a></li>
+<li><a>Cassiane </a></li>
+<li><a>Cristina Mel</a></li>
+<li><a>Chris Durán</a></li>
+<li><a>Chrystian e Ralf</a></li>
+<li><a>Claudia Leitte</a></li>
+<li><a>Chico Buarque</a></li>
+<li><a>Capital Inicial</a></li>
+<li><a>Chrystian e Ralf</a></li>
+<li><a>Cidinho e Doca</a></li>
+<li><a>Commodores </a></li>
+<li><a>Chicago </a></li>
+<li><a>Carly Simon</a></li>
+<li><a>Double You</a></li>
+<li><a>Colbie Caillat</a></li>
+<li><a>Christina Perri</a></li>
+<li><a>Cyndi Lauper</a></li>
+<li><a>Celine Dion</a></li>
+
+
+<li><a href="#"class="header">D</a></li>
+<li><a>Daniel </a></li>
+<li><a>Demônios Da Garoa</a></li>
+<li><a>Detonautas </a></li>
+<li><a>Diana </a></li>
+<li><a>Disney </a></li>
+<li><a>Djavan </a></li>
+<li><a>Doce Encontro</a></li>
+<li><a>Dominguinhos </a></li>
+<li><a>Domino </a></li>
+<li><a>Dorival Caymmi</a></li>
+<li><a>Duran Duran</a></li>
+<li><a>Dua Lipa</a></li>
+<li><a>Doobie Brothers</a></li>
+<li><a>David Guetta</a></li>
+<li><a>Demi Lovato</a></li>
+<li><a>Debbie Gibson</a></li>
+<li><a>David Bowie</a></li>
+<li><a>Disney Frozen</a></li>
+<li><a>Daniela Mercury</a></li>
+<li><a>Disney Rei Leão</a></li>
+<li><a>Diego e Victor Hugo</a></li>
+<li><a>Detonautas </a></li>
+<li><a>Disney Moana</a></li>
+<li><a>Damares </a></li>
+<li><a>Depeche Mode</a></li>
+<li><a>Diego e Victor Hugo</a></li>
+<li><a>Dennis DJ</a></li>
+<li><a>Dilsinho</a></li>
+<li><a>Donna Summer</a></li>
+<li><a>Deep Purple</a></li>
+<li><a>Diana Ross</a></li>
+<li><a>Destiny's Child</a></li>
+<li><a>Doors </a></li>
+<li><a>Diogo Nogueira</a></li>
+<li><a>Dido </a></li>
+
+
+<li><a href="#"class="header">E</a></li>
+<li><a>e O Tchan</a></li>
+<li><a>Edson e Hudson</a></li>
+<li><a>Eduardo Costa</a></li>
+<li><a>Elba Ramalho</a></li>
+<li><a>Elis Regina</a></li>
+<li><a>Elza Soares</a></li>
+<li><a>Emilio Santiago</a></li>
+<li><a>Engenheiros Do Hawaii</a></li>
+<li><a>Erasmo Carlos</a></li>
+<li><a>Evaldo Braga</a></li>
+<li><a>Elton John</a></li>
+<li><a>Ed Sheeran</a></li>
+<li><a>Elvis Presley</a></li>
+<li><a>Eminem </a></li>
+<li><a>Exaltasamba </a></li>
+<li><a>Enzo Rabelo</a></li>
+<li><a>Enrique Iglesias</a></li>
+<li><a>Etta James</a></li>
+<li><a>Emilio Santiago</a></li>
+<li><a>Evanescence </a></li>
+<li><a>Erasure </a></li>
+<li><a>Eagles </a></li>
+<li><a>Ellie Goulding</a></li>
+<li><a>Eurythmics </a></li>
+<li><a>Eros Ramazzotti</a></li>
+<li><a>Europe </a></li>
+<li><a>Eliana</a></li>
+
+
+<li><a href="#"class="header">F</a></li>
+<li><a>Fabio Junior</a></li>
+<li><a>Falamansa</a></li>
+<li><a>Felipe Dillon</a></li>
+<li><a>Fernando e Sorocaba</a></li>
+<li><a>Fernando Mendes</a></li>
+<li><a>Forro do Muido</a></li>
+<li><a>Forro Saborear</a></li>
+<li><a>Frank Aguiar</a></li>
+<li><a>Foo Fighters</a></li>
+<li><a>Faith No More</a></li>
+<li><a>Felipe Araujo</a></li>
+<li><a>Flávio José</a></li>
+<li><a>Ferrugem</a></li>
+<li><a>Fundo de Quintal</a></li>
+<li><a>Fernanda Brum</a></li>
+<li><a>Fagner </a></li>
+<li><a>Fernandinho</a></li>
+<li><a>Familia Lima</a></li>
+<li><a>Flo Rida</a></li>
+<li><a>Fergie </a></li>
+<li><a>Freddie Mercury</a></li>
+<li><a>Frank Sinatra</a></li>
+<li><a>Fifth Harmony</a></li>
+<li><a>Frejat</a></li>
+
+
+<li><a href="#"class="header">G</a></li>
+<li><a>Gabriel Diniz</a></li>
+<li><a>Gabriel O Pensador</a></li>
+<li><a>Gal Costa</a></li>
+<li><a>Galinha Pintadinha</a></li>
+<li><a>Genival Lacerda</a></li>
+<li><a>Gian E Giovani</a></li>
+<li><a>Gilberto Gil</a></li>
+<li><a>Gino E Geno</a></li>
+<li><a>Gonzaguinha</a></li>
+<li><a>Guilherme Arantes</a></li>
+<li><a>Guilherme E Santiago</a></li>
+<li><a>Grupo Menos é Mais</a></li>
+<li><a>Green Day</a></li>
+<li><a>Gabriel Sater</a></li>
+<li><a>Gorillaz </a></li>
+<li><a>Green Day</a></li>
+<li><a>Gavin James</a></li>
+<li><a>Gigi D'agostino</a></li>
+<li><a>Genesis </a></li>
+<li><a>George Michael</a></li>
+<li><a>Gloria Estefan</a></li>
+<li><a>George Harrison</a></li>
+<li><a>Gary Moore</a></li>
+<li><a>Grupo Revelação</a></li>
+<li><a>Giulia Be</a></li>
+<li><a>Gustavo Mioto</a></li>
+<li><a>Guns N' Roses</a></li>
+<li><a>Gerson Rufino</a></li>
+<li><a>Gusttavo Lima</a></li>
+<li><a>George Henrique e Rodrigo</a></li>
+<li><a>Gretchen</a></li>
+<li><a>Gabriel Elias</a></li>
+<li><a>George Benson</a></li>
+
+
+<li><a href="#"class="header">H</a></li>
+<li><a>Halsey </a></li>
+<li><a>Harry Styles</a></li>
+<li><a>Haddaway </a></li>
+<li><a>High School Musical</a></li>
+<li><a>Hannah Montana</a></li>
+<li><a>H. Belafonte</a></li>
+<li><a>Henrique e Juliano</a></li>
+<li><a>Harpa Cristã</a></li>
+<li><a>Heloisa Rosa</a></li>
+<li><a>Heart </a></li>
+<li><a>Harmonia do Samba</a></li>
+<li><a>Henrique e Diego</a></li>
+<li><a>Hino dos times brasileiros</a></li>
+<li><a>Hino Nacional Brasileiro</a></li>
+<li><a>Hugo e Tiago</a></li>
+
+
+<li><a href="#"class="header">I</a></li>
+<li><a>Inimigos da HP</a></li>
+<li><a>Israel Novaes</a></li>
+<li><a>Imagine Dragons</a></li>
+<li><a>Ivan Lins</a></li>
+<li><a>Ivete Sangalo</a></li>
+<li><a>IRA!</a></li>
+<li><a>Iza </a></li>
+<li><a>Iron Maiden</a></li>
+<li><a>Irene Cara</a></li>
+
+
+<li><a href="#"class="header">J</a></li>
+<li><a>Jads e Jadson</a></li>
+<li><a>Jair Rodrigues</a></li>
+<li><a>Jeito Moleque</a></li>
+<li><a>Jerry Adriani</a></li>
+<li><a>João Bosco</a></li>
+<li><a>João Carreiro e Capataz</a></li>
+<li><a>João Mineiro e Marciano</a></li>
+<li><a>João Neto e Frederico</a></li>
+<li><a>Jorge Benjor</a></li>
+<li><a>Jimmy Cliff</a></li>
+<li><a>Janet Jackson</a></li>
+<li><a>Jota Quest</a></li>
+<li><a>Jovem Guarda</a></li>
+<li><a>Julio Iglesias</a></li>
+<li><a>Jorge Aragão</a></li>
+<li><a>João Bosco e Vinicius</a></li>
+<li><a>Jads e Jadson</a></li>
+<li><a>Jorge Vercillo</a></li>
+<li><a>José Augusto</a></li>
+<li><a>Jorge e Mateus</a></li>
+<li><a>JÃO </a></li>
+<li><a>Jerry Smith</a></li>
+<li><a>Johnny Nash</a></li>
+<li><a>Jim Reeves</a></li>
+<li><a>James Brown</a></li>
+<li><a>João Gomes</a></li>
+<li><a>Jonas Esticado</a></li>
+<li><a>Jojo </a></li>
+<li><a>Johnny Rivers</a></li>
+<li><a>James Blunt</a></li>
+<li><a>John Mayer</a></li>
+<li><a>Jason Derulo</a></li>
+<li><a>Jackson 5</a></li>
+<li><a>Jessie J</a></li>
+<li><a>Jason Mraz</a></li>
+<li><a>Johnny Cash</a></li>
+<li><a>John Legend</a></li>
+<li><a>Jonas Brothers</a></li>
+<li><a>Justin Bieber</a></li>
+<li><a>Justin Timberlake</a></li>
+<li><a>James Morrison</a></li>
+<li><a>John Lennon</a></li>
+
+
+<li><a href="#"class="header">K</a></li>
+<li><a>Kell Smith</a></li>
+<li><a>Kleber Lucas</a></li>
+<li><a>Kenny Rogers</a></li>
+<li><a>Keane </a></li>
+<li><a>Kiss </a></li>
+<li><a>Killers</a></li>
+<li><a>Kelly Clarkson</a></li>
+<li><a>Karametade </a></li>
+<li><a>Katinguele</a></li>
+<li><a>Kelly Key</a></li>
+<li><a>Kid Abelha</a></li>
+<li><a>KLB</a></li>
+<li><a>Kings of Leon</a></li>
+
+
+<li><a href="#"class="header">L</a></li>
+<li><a>Led Zeppelin</a></li>
+<li><a>Lucas Lucco</a></li>
+<li><a>Luan Santana</a></li>
+<li><a>Limão com Mel</a></li>
+<li><a>Lewis Capaldi</a></li>
+<li><a>Lighthouse Family</a></li>
+<li><a>LeAnn Rimes</a></li>
+<li><a>Lana Del Rey</a></li>
+<li><a>Lenny Kravitz</a></li>
+<li><a>Lauana Prado</a></li>
+<li><a>Lady Antebellum</a></li>
+<li><a>Louis Armstrong</a></li>
+<li><a>Ludmilla </a></li>
+<li><a>Ludmila Ferber</a></li>
+<li><a>Lazaro </a></li>
+<li><a>Leo Chaves</a></li>
+<li><a>Latino</a></li>
+<li><a>Laura Pausini</a></li>
+<li><a>Legião Urbana</a></li>
+<li><a>Leandro E Leonardo</a></li>
+<li><a>Leo Magalhães</a></li>
+<li><a>Leonardo </a></li>
+<li><a>Lobão</a></li>
+<li><a>Los Hermanos</a></li>
+<li><a>LS Jack</a></li>
+<li><a>Lulu Santos</a></li>
+<li><a>Lady Gaga</a></li>
+<li><a>Los Hermanos</a></li>
+<li><a>Luiz Gonzaga</a></li>
+<li><a>Leo Jaime</a></li>
+<li><a>Lexa </a></li>
+<li><a>Lenine </a></li>
+<li><a>Leona Lewis</a></li>
+<li><a>Los Lobos</a></li>
+<li><a>Lisa Stansfield</a></li>
+<li><a>Little Richard</a></li>
+<li><a>Luis Fonsi</a></li>
+<li><a>Linkin Park</a></li>
+
+
+<li><a href="#"class="header">M</a></li>
+<li><a>Marshmello</a></li>
+<li><a>Mika </a></li>
+<li><a>Marvin Gaye</a></li>
+<li><a>Mamas and Papas</a></li>
+<li><a>Menudo </a></li>
+<li><a>Maiara e Maraísa</a></li>
+<li><a>Naiara Azevedo</a></li>
+<li><a>Mano Walter</a></li>
+<li><a>Mara Maravilha</a></li>
+<li><a>Mariana Valadão</a></li>
+<li><a>Mariana Rios</a></li>
+<li><a>Matheus e Kauan</a></li>
+<li><a>Matogrosso e Mathias</a></li>
+<li><a>Murilo Ruff</a></li>
+<li><a>Mari Fernandez</a></li>
+<li><a>Manoel Gomes</a></li>
+<li><a>Melim </a></li>
+<li><a>MC Kevin</a></li>
+<li><a>Mumuzinho </a></li>
+<li><a>Malta </a></li>
+<li><a>Maria Cecília e Rodolfo</a></li>
+<li><a>Mamonas Assassinas</a></li>
+<li><a>Marcos e Belutti</a></li>
+<li><a>Maria Bethânia</a></li>
+<li><a>Marisa Monte</a></li>
+<li><a>Marlon E Maicon</a></li>
+<li><a>Martinho Da Vila</a></li>
+<li><a>Mastruz Com Leite</a></li>
+<li><a>Matheus e Kauan</a></li>
+<li><a>MC Gui</a></li>
+<li><a>MC Guime</a></li>
+<li><a>Mc Koringa</a></li>
+<li><a>Mc Leozinho</a></li>
+<li><a>Mc Perlla</a></li>
+<li><a>MC Sapão</a></li>
+<li><a>Milionario E Jose Rico</a></li>
+<li><a>Milton Nascimento</a></li>
+<li><a>Molejo </a></li>
+<li><a>Mundo Bita</a></li>
+<li><a>Munhoz e Mariano</a></li>
+<li><a>MC Marcinho</a></li>
+<li><a>Michel Telo</a></li>
+<li><a>Moraes Moreira</a></li>
+<li><a>Mila </a></li>
+<li><a>MC Kevinho</a></li>
+<li><a>Marilia Mendonça</a></li>
+<li><a>Manhattans </a></li>
+<li><a>Malcolm Roberts</a></li>
+<li><a>Musica Natalina</a></li>
+<li><a>Mariah Carey</a></li>
+<li><a>My Chemical Romance</a></li>
+<li><a>Madonna</a></li>
+<li><a>Michael Bolton</a></li>
+<li><a>Manhattans</a></li>
+<li><a>Maggie Macneal</a></li>
+<li><a>Megadeth</a></li>
+<li><a>Mariah Carey</a></li>
+<li><a>Midnight Oil</a></li>
+<li><a>Michael Jackson</a></li>
+<li><a>Magic!</a></li>
+<li><a>Maroon 05</a></li>
+<li><a>Metallica </a></li>
+<li><a>Mac DeMarco</a></li>
+
+
+<li><a href="#"class="header">N</a></li>
+<li><a>Naiara Azevedo</a></li>
+<li><a>Neil Young</a></li>
+<li><a>Ne-Yo</a></li>
+<li><a>Nivea Soares</a></li>
+<li><a>Ney Matogrosso</a></li>
+<li><a>Naldo Benny</a></li>
+<li><a>Nickelback </a></li>
+<li><a>Nando Reis</a></li>
+<li><a>Natiruts </a></li>
+<li><a>Nelson Gonçalves</a></li>
+<li><a>Nelson Ned</a></li>
+<li><a>NX Zero</a></li>
+<li><a>Netinho </a></li>
+<li><a>Nicki Minaj</a></li>
+<li><a>Norah Jones</a></li>
+<li><a>Nelly Furtado</a></li>
+<li><a>Nirvana</a></li>
+<li><a>Nelly</a></li>
+<li><a>New Kids On The Block</a></li>
+
+
+<li><a href="#"class="header">O</a></li>
+<li><a>One Direction</a></li>
+<li><a>One Republic</a></li>
+<li><a>Offspring </a></li>
+<li><a>Oasis </a></li>
+<li><a>Oficina G3</a></li>
+<li><a>O Rappa</a></li>
+<li><a>Oba Oba Samba House</a></li>
+<li><a>Odair Jose</a></li>
+<li><a>Ovelha</a></li>
+
+
+<li><a href="#"class="header">P</a></li>
+<li><a>Pablo </a></li>
+<li><a>Padre Fabio de Melo</a></li>
+<li><a>Padre Marcelo Rossi</a></li>
+<li><a>Parabéns A Você</a></li>
+<li><a>Paralamas Do Sucesso</a></li>
+<li><a>Parangole </a></li>
+<li><a>Patati Patata</a></li>
+<li><a>Paula Fernandes</a></li>
+<li><a>Paulinho Da Viola</a></li>
+<li><a>Paulo Ricardo</a></li>
+<li><a>Paulo Sergio</a></li>
+<li><a>Pedro E Thiago</a></li>
+<li><a>Pitty </a></li>
+<li><a>Psirico</a></li>
+<li><a>Perla </a></li>
+<li><a>Psy </a></li>
+<li><a>Police </a></li>
+<li><a>Pholhas </a></li>
+<li><a>Pharrell Williams</a></li>
+<li><a>Pitbull </a></li>
+<li><a>Prince </a></li>
+<li><a>Pet Shop Boys</a></li>
+<li><a>Phil Collins</a></li>
+<li><a>Patti Smith Group</a></li>
+<li><a>Projota </a></li>
+<li><a>Paramore </a></li>
+<li><a>Paulo Cesar Baruk</a></li>
+<li><a>Pedagogica </a></li>
+<li><a>Pedro Sampaio</a></li>
+<li><a>Pericles</a></li>
+<li><a>Pixote </a></li>
+<li><a>Panic At The Disco</a></li>
+<li><a>Pet Shop Boys</a></li>
+<li><a>Pussycat </a></li>
+<li><a>Post Malone</a></li>
+<li><a>Pink</a></li>
+<li><a>Paul MacCartney</a></li>
+
+
+
+<li><a href="#"class="header">R</a></li>
+<li><a>Raí Saia Rodada</a></li>
+<li><a>Raça Negra</a></li>
+<li><a>Raimundos </a></li>
+<li><a>Rastape </a></li>
+<li><a>Raul Gil</a></li>
+<li><a>Raul Seixas</a></li>
+<li><a>Rebeldes </a></li>
+<li><a>Reginaldo Rossi</a></li>
+<li><a>Regis Danese</a></li>
+<li><a>Renato Russo</a></li>
+<li><a>Rick E Renner</a></li>
+<li><a>Rick Martin</a></li>
+<li><a>Rionegro E Solimões</a></li>
+<li><a>Rita de Cassia</a></li>
+<li><a>Ritchie </a></li>
+<li><a>Roberta Miranda</a></li>
+<li><a>Ramones </a></li>
+<li><a>Ricky Martin</a></li>
+<li><a>Righteous Brothers</a></li>
+<li><a>Rockwell </a></li>
+<li><a>Roberta Flack</a></li>
+<li><a>Rita Pavone</a></li>
+<li><a>Roberto Carlos</a></li>
+<li><a>Roy Orbison</a></li>
+<li><a>Rita Lee</a></li>
+<li><a>Roberta Campos</a></li>
+<li><a>Roberto Leal</a></li>
+<li><a>Rosana </a></li>
+<li><a>Roupa Nova</a></li>
+<li><a>Rouge</a></li>
+<li><a>RPM</a></li>
+<li><a>Regis Danese</a></li>
+<li><a>Raul Seixas</a></li>
+<li><a>Radiohead </a></li>
+<li><a>R. Kelly</a></li>
+<li><a>Ricky Martin</a></li>
+<li><a>Rod Stewart</a></li>
+<li><a>Robbie Williams</a></li>
+<li><a>Red Hot Chili Peppers</a></li>
+<li><a>Robin S</a></li>
+<li><a>Rick Astley</a></li>
+<li><a>Rihanna </a></li>
+<li><a>Roxette </a></li>
+<li><a>Ray Charles</a></li>
+<li><a>Rolling Stones</a></li>
+
+
+<li><a href="#"class="header">S</a></li>
+<li><a>Secos e Molhados</a></li>
+<li><a>Simony </a></li>
+<li><a>Skank </a></li>
+<li><a>Sampa Crew</a></li>
+<li><a>Sandra De Sa</a></li>
+<li><a>Shakira </a></li>
+<li><a>Soweto </a></li>
+<li><a>Supla</a></li>
+<li><a>Santana </a></li>
+<li><a>Sinead O'Connor</a></li>
+<li><a>Supertramp </a></li>
+<li><a>Sting </a></li>
+<li><a>Strokes </a></li>
+<li><a>Sergio Reis</a></li>
+<li><a>Soraya Moraes</a></li>
+<li><a>Sorriso Maroto</a></li>
+<li><a>Simone e Simaria</a></li>
+<li><a>Simone </a></li>
+<li><a>Sandy</a></li>
+<li><a>Sandy e Junior</a></li>
+<li><a>Seu Jorge</a></li>
+<li><a>So Pra Contrariar</a></li>
+<li><a>Seal </a></li>
+<li><a>Savage Garden</a></li>
+<li><a>Sheena Easton</a></li>
+<li><a>Stevie Wonder</a></li>
+<li><a>Swing Out Sister</a></li>
+<li><a>Selena Gomez</a></li>
+<li><a>Scorpions</a></li>
+<li><a>Simple Plan</a></li>
+<li><a>Shania Twain</a></li>
+<li><a>Smiths </a></li>
+<li><a>Stylistics </a></li>
+<li><a>Spice Girls</a></li>
+<li><a>Sean Kingston</a></li>
+<li><a>Stevie Wonder</a></li>
+<li><a>Simply Red</a></li>
+<li><a>Sabrina </a></li>
+<li><a>Sade </a></li>
+<li><a>Shawn Mendes</a></li>
+<li><a>Sia </a></li>
+<li><a>System Of A Down</a></li>
+<li><a>Snow Patrol</a></li>
+<li><a>Stevie B</a></li>
+<li><a>Stevie Wonder</a></li>
+<li><a>Sheryl Crow</a></li>
+<li><a>Sam Smith</a></li>
+
+
+<li><a href="#"class="header">T</a></li>
+<li><a>Tania Mara</a></li>
+<li><a>Taiguara </a></li>
+<li><a>Tchakabum</a></li>
+<li><a>Tony Garrido</a></li>
+<li><a>Tiririca </a></li>
+<li><a>Tião Carreiro E Pardinho</a></li>
+<li><a>Twister </a></li>
+<li><a>Tom Jobim</a></li>
+<li><a>Tianastacia </a></li>
+<li><a>Tihuana </a></li>
+<li><a>Teixeirinha </a></li>
+<li><a>Tiago Abravanel</a></li>
+<li><a>Thalia</a></li>
+<li><a>Tim Maia</a></li>
+<li><a>Titãs </a></li>
+<li><a>The Queen</a></li>
+<li><a>Toquinho </a></li>
+<li><a>Trio Parada Dura</a></li>
+<li><a>Trem da Alegria</a></li>
+<li><a>Thalles Roberto</a></li>
+<li><a>Thiaguinho </a></li>
+<li><a>Thaeme e Thiago</a></li>
+<li><a>Tribalistas</a></li>
+<li><a>Thiago Brava</a></li>
+<li><a>Turma do Balão Magico</a></li>
+<li><a>Turma do Pagode</a></li>
+<li><a>Toni Braxton</a></li>
+<li><a>Taylor Swift</a></li>
+<li><a>Thalia </a></li>
+<li><a>The Cars</a></li>
+<li><a>Tony Benett</a></li>
+<li><a>Terry Winter</a></li>
+<li><a>The Wanted</a></li>
+<li><a>Tina Charles</a></li>
+<li><a>Timbaland </a></li>
+<li><a>Taio Cruz</a></li>
+<li><a>The Police</a></li>
+<li><a>Toke Divinal</a></li>
+<li><a>Tierry</a></li>
+<li><a>Tears For Fears</a></li>
+<li><a>Tina Turner</a></li>
+<li><a>Tarcísio do Acordeon</a></li>
+
+
+<li><a href="#"class="header">U</a></li>
+<li><a>U2 </a></li>
+<li><a>Ultraje a Rigor</a></li>
+<li><a>Usher </a></li>
+
+
+<li><a href="#"class="header">V</a></li>
+<li><a>Village People</a></li>
+<li><a>Vanessa Williams</a></li>
+<li><a>Van Halen</a></li>
+<li><a>Vanessa da Mata</a></li>
+<li><a>Vanusa </a></li>
+<li><a>Vovo Mafalda</a></li>
+<li><a>Valesca Popozuda</a></li>
+<li><a>Vinicius Cantuaria</a></li>
+<li><a>Vengaboys</a></li>
+<li><a>Vitor Fernandes</a></li>
+<li><a>Vitor Kley</a></li>
+<li><a>Vinicius de Moraes</a></li>
+
+
+<li><a href="#"class="header">W</a></li>
+<li><a>Willie Nelson</a></li>
+<li><a>Wanderlea </a></li>
+<li><a>Wando </a></li>
+<li><a>Waldick Soriano</a></li>
+<li><a>Waguinho </a></li>
+<li><a>Wilson Simonal</a></li>
+<li><a>Wanessa Camargo</a></li>
+<li><a>Walter Franco</a></li>
+<li><a>Whitesnake </a></li>
+<li><a>Whitney Houston</a></li>
+<li><a>Wiz Khalifa</a></li>
+<li><a>Who</a></li>
+
+
+<li><a href="#"class="header">X</a></li>
+<li><a>Xuxa</a></li>
+<li><a>Xand Avião</a></li>
+<li><a><li><a>Xanddy Harmonia</a></li>
+
+
+<li><a href="#"class="header">Y</a></li>
+<li><a>Yasmin Santos</a></li>
+<li><a>Yudi </a></li>
+<li><a>Yahoo</a></li>
+
+
+<li><a href="#"class="header">Z</a></li>
+<li><a>Zelia Duncan</a></li>
+<li><a>Zé Ramalho</a></li>
+<li><a>Zé Paulo</a></li>
+<li><a>Zeze Di Camargo e Luciano</a></li>
+<li><a>Zeca Pagodinho</a></li>
+<li><a>Zayn</a></li>
+<li><a>Ze Neto e Cristiano</a></li>
+<li><a>Zeca Baleiro</a></li>
+<li><a>Ze Felipe</a></li>
+
+
+</ul>
+
+
+
+<script src="../packdemusicas.com/scriptkaraoke.js"></script>
+
+
+</body>
+
+<!-- Mirrored from www.packdemusicas.com.br/pesquisa.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jul 2024 02:52:22 GMT -->
+</html>
